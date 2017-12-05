@@ -1,6 +1,6 @@
 {
   "name": "Offbeat",
-  "app_id": "",
+  "app_id": "efa56670",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}

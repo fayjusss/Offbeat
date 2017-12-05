@@ -6,9 +6,39 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content class="bg-style">
+
+  <ion-item class="item-profile">
+    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+    <div class="item-avatar">
+      <img src="assets/imgs/user.jpg">
+    </div>
+  </ion-item>
+
+  <ion-card text-center padding-vertical>
+    <ion-card-header>
+      Progress: Level 2
+    </ion-card-header>
+
+    <ion-card-content>
+      <progress value="7" max="12"></progress>
+    </ion-card-content>
+
+    <p>7/12</p>
+
+  </ion-card>
+
+  <ion-card text-center padding-vertical>
+    <ion-card-content>
+    <!-- Add card content here! -->
+      <div class="item">
+        <button ion-button block rounded large>Learn</button>
+        <button ion-button block rounded large>Play</button>
+      </div>
+    </ion-card-content>
+
+  </ion-card>
+
+
+
 </ion-content>

@@ -1,3 +1,12 @@
 page-home {
 
 }
+
+.item-profile {
+  height: 150px;
+  .item-avatar > img:first-child {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+  }
+}

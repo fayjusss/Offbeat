@@ -21,9 +21,13 @@ $app-direction: ltr;
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
+$card-ios-margin-top: 30px;
+$card-ios-margin-bottom: 30px;
+$card-md-margin-top: 30px;
+$card-md-margin-bottom: 30px;
 
-
-
+$button-ios-border-radius: 20px;
+$button-md-border-radius: 20px;
 
 // Named Color Variables
 // --------------------------------------------------
