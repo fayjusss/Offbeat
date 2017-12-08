@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Study Plan
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-style">
+
+  <ion-item class="item-profile">
+    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+    <div class="item-avatar">
+      <img src="assets/imgs/user.jpg">
+    </div>
+  </ion-item>
+
+  <button ion-button full default>Level test</button>
+
+ <ion-card text-center padding-vertical>
+    <ion-card-content>
+      <ion-menu side="right" [content]="mycontent"> Level </ion-menu>
+      <div class="item">
+        <button ion-button block rounded small>Level 2</button>
+        <button ion-button block rounded small>Level 3</button>
+        <button ion-button block rounded small>Level 4</button>
+        <button ion-button block rounded small>Level 5</button>
+      </div>
+    </ion-card-content>
+
+  </ion-card>
+
+
+
+
+</ion-content>
