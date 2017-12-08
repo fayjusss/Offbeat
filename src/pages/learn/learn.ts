@@ -8,6 +8,7 @@ import { NavController } from 'ionic-angular';
 export class LearnPage {
   items: any[];
 
+
   constructor(public navCtrl: NavController) {
 
   }
