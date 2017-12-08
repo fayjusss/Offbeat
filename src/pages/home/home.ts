@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { GamesPage } from '../games/games';
 
 @Component({
   selector: 'page-home',
@@ -7,6 +8,7 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
   items: any[];
+  gamesPage = GamesPage;
 
   constructor(public navCtrl: NavController) {
 
