@@ -13,6 +13,40 @@
 </ion-header>
 
 
-<ion-content padding>
-  This is my super awesome about page.
+<ion-content class="bg-style">
+
+  <ion-item class="item-profile">
+    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+    <div class="item-avatar">
+      <img src="assets/imgs/user.jpg">
+    </div>
+  </ion-item>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button (click)='gameTypeSelected();' ion-button block rounded>
+          <ion-icon name="person" style="font-size: 30px"></ion-icon>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button block rounded>
+          <ion-icon name="people" style="font-size: 30px"></ion-icon>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card text-center padding-vertical>
+    <ion-card-content>
+    <!-- Add card content here! -->
+      <div class="item">
+        <button ion-button block rounded large>Notes</button>
+        <button ion-button block rounded large>Beats</button>
+        <button ion-button block rounded large>Facts</button>
+      </div>
+    </ion-card-content>
+
+  </ion-card>
+ 
 </ion-content>

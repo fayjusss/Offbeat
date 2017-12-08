@@ -13,7 +13,7 @@ import { LearnPage } from '../pages/learn/learn';
   declarations: [
     MyApp,
     HomePage,
-    GamesPage
+    GamesPage,
     LearnPage
   ],
   imports: [
@@ -24,7 +24,7 @@ import { LearnPage } from '../pages/learn/learn';
   entryComponents: [
     MyApp,
     HomePage,
-    GamesPage
+    GamesPage,
     LearnPage
   ],
   providers: [

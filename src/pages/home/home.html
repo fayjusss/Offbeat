@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      OffBeat
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -9,7 +9,7 @@
 <ion-content class="bg-style">
 
   <ion-item class="item-profile">
-    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+    <ion-icon name="settings" style="font-size: 30px; float: right"></ion-icon>
     <div class="item-avatar">
       <img src="assets/imgs/user.jpg">
     </div>
@@ -32,7 +32,7 @@
     <ion-card-content>
     <!-- Add card content here! -->
       <div class="item">
-        <button ion-button (click)="openLearnPage()">Learn</button>
+        <button [navPush]="learnPage" ion-button block rounded large>Learn</button>
         <button [navPush]="gamesPage" ion-button block rounded large>Play</button>
       </div>
     </ion-card-content>

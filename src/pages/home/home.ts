@@ -10,14 +10,9 @@ import { LearnPage } from '../learn/learn';
 export class HomePage {
   items: any[];
   gamesPage = GamesPage;
-  nav: null
+  learnPage = LearnPage;
 
   constructor(public navCtrl: NavController) {
-    this.nav = navCtrl
 
-  }
-
-  openLearnPage() {
-  this.nav.push(LearnPage)
   }
 }
