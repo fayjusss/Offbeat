@@ -20,12 +20,14 @@
  <ion-card text-center padding-vertical>
     <ion-card-content>
 
-      <!-- <ion-menu side="right" [content]="mycontent"> Level </ion-menu> -->
       <div class="item">
 
+        <button ion-button block rounded small (click)="onButtonClick()">Level 1</button>
+
+        <ion-input *ngIf="buttonClicked"  value="yolo"></ion-input>
 
         <button ion-button block rounded small>Level 1</button>
-          <button ion-button color="secondary" small>Lesson 1</button>
+
           <button ion-button color="secondary" small>Lesson 2</button>
           <button ion-button color="secondary" small>Lesson 3</button>
           <button ion-button color="secondary" small>Lesson 4</button>
@@ -42,7 +44,7 @@
           <button ion-button color="secondary" small>Lesson 5</button>
           <button ion-button color="secondary" small>Lesson 6</button>
           <button ion-button color="secondary" small>Lesson 7</button>
-          <button ion-button [navPush]="level2lesson8Page" color="secondary" small>Lesson 8</button>
+          <button [navPush]="lessonPage" color="secondary" ion-button small>Lesson 8</button>
           <button ion-button color="secondary" small>Lesson 9</button>
         <button ion-button block rounded small>Level 3</button>
           <button ion-button color="secondary" small>Lesson 1</button>
