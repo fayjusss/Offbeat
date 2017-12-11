@@ -9,6 +9,10 @@ import { HomePage } from '../pages/home/home';
 import { GamesPage } from '../pages/games/games';
 import { LearnPage } from '../pages/learn/learn';
 import { LessonPage } from '../pages/lesson/lesson';
+import { MockupGamePage } from '../pages/mockup-game/mockup-game';
+import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
+
+
 
 @NgModule({
   declarations: [
@@ -16,7 +20,9 @@ import { LessonPage } from '../pages/lesson/lesson';
     HomePage,
     GamesPage,
     LearnPage,
-    LessonPage
+    LessonPage,
+    MockupGamePage,
+    MultiplayerGameMockupPage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +34,9 @@ import { LessonPage } from '../pages/lesson/lesson';
     HomePage,
     GamesPage,
     LearnPage,
-    LessonPage
+    LessonPage,
+    MockupGamePage,
+    MultiplayerGameMockupPage
   ],
   providers: [
     StatusBar,

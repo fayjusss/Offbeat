@@ -6,6 +6,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { LearnPage } from '../pages/learn/learn';
 import { LessonPage } from '../pages/lesson/lesson';
+import { MockupGamePage } from '../pages/mockup-game/mockup-game';
+import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
+
+
 @Component({
   templateUrl: 'app.html'
 })
