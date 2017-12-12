@@ -11,7 +11,7 @@ import { LearnPage } from '../pages/learn/learn';
 import { LessonPage } from '../pages/lesson/lesson';
 import { MockupGamePage } from '../pages/mockup-game/mockup-game';
 import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
-
+import { SettingsPage } from '../pages/settings/settings';
 
 
 @NgModule({
@@ -22,7 +22,8 @@ import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/mult
     LearnPage,
     LessonPage,
     MockupGamePage,
-    MultiplayerGameMockupPage
+    MultiplayerGameMockupPage,
+    SettingsPage
   ],
   imports: [
     BrowserModule,
@@ -36,7 +37,8 @@ import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/mult
     LearnPage,
     LessonPage,
     MockupGamePage,
-    MultiplayerGameMockupPage
+    MultiplayerGameMockupPage,
+    SettingsPage
   ],
   providers: [
     StatusBar,
