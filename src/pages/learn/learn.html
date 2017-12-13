@@ -9,7 +9,11 @@
 <ion-content class="bg-style">
 
   <ion-item class="item-profile">
-    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+
+    <button [navPush]="settingsPage">
+      <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
+    </button>
+
     <div class="item-avatar">
       <img src="assets/imgs/user.jpg">
     </div>

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { MockupGamePage } from '../mockup-game/mockup-game';
 import { MultiplayerGameMockupPage } from '../multiplayer-game-mockup/multiplayer-game-mockup';
-
+import { SettingsPage } from '../settings/settings';
 
 /**
  * Generated class for the GamesPage page.
@@ -18,6 +18,7 @@ import { MultiplayerGameMockupPage } from '../multiplayer-game-mockup/multiplaye
 })
 export class GamesPage {
 
+  settingsPage = SettingsPage;
   mockupGamePage = MockupGamePage;
   multiplayerGameMockupPage = MultiplayerGameMockupPage;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
