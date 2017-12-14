@@ -10,10 +10,10 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <img margin-left src="assets/imgs/userRound.jpg">
+        <img [navPush]="profilePage" margin-left src="assets/imgs/userRound.jpg">
       </ion-col>
       <ion-col col-8 text-right>
-        <ion-icon margin-right [navPush]="settingsPage" name="settings" style="font-size: 40px"></ion-icon>
+        <ion-icon [navPush]="settingsPage" margin-right name="settings" style="font-size: 40px"></ion-icon>
       </ion-col>
     </ion-row>
   </ion-grid>

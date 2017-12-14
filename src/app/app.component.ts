@@ -9,6 +9,7 @@ import { LessonPage } from '../pages/lesson/lesson';
 import { MockupGamePage } from '../pages/mockup-game/mockup-game';
 import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
 import { SettingsPage } from '../pages/settings/settings';
+import { ProfilePage } from '../pages/profile/profile';
 
 @Component({
   templateUrl: 'app.html'
