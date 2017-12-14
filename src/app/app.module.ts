@@ -13,6 +13,7 @@ import { MockupGamePage } from '../pages/mockup-game/mockup-game';
 import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
 import { SettingsPage } from '../pages/settings/settings';
 import { ProfilePage } from '../pages/profile/profile';
+import { SinglePlayerGameOverPage } from '../pages/single-player-game-over/single-player-game-over';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ProfilePage } from '../pages/profile/profile';
     MockupGamePage,
     MultiplayerGameMockupPage,
     SettingsPage,
-    ProfilePage
+    ProfilePage,
+    SinglePlayerGameOverPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +42,8 @@ import { ProfilePage } from '../pages/profile/profile';
     MockupGamePage,
     MultiplayerGameMockupPage,
     SettingsPage,
-    ProfilePage
+    ProfilePage,
+    SinglePlayerGameOverPage
   ],
   providers: [
     StatusBar,

@@ -15,4 +15,14 @@ export class LearnPage {
   constructor(public navCtrl: NavController) {
 
   }
+  openFilters() {
+      var button = document.getElementById('hidden');
+
+      if(button.style.display == "none"){
+        button.style.display = "block";
+      }
+      else{
+        button .style.display = "none";
+      }
+  }
 }

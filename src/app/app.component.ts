@@ -10,6 +10,7 @@ import { MockupGamePage } from '../pages/mockup-game/mockup-game';
 import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/multiplayer-game-mockup';
 import { SettingsPage } from '../pages/settings/settings';
 import { ProfilePage } from '../pages/profile/profile';
+import { SinglePlayerGameOverPage } from '../pages/single-player-game-over/single-player-game-over';
 
 @Component({
   templateUrl: 'app.html'
