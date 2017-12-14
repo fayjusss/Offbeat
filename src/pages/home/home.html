@@ -6,14 +6,17 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="bg-style">
-
-  <ion-item class="item-profile">
-    <ion-icon name="settings" style="font-size: 30px; float: right"></ion-icon>
-    <div class="item-avatar">
-      <img src="assets/imgs/user.jpg">
-    </div>
-  </ion-item>
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img margin-left src="assets/imgs/userRound.jpg">
+      </ion-col>
+      <ion-col col-8 text-right>
+        <ion-icon margin-right [navPush]="settingsPage" name="settings" style="font-size: 40px"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
   <ion-card text-center padding-vertical>
     <ion-card-header>
@@ -32,14 +35,11 @@
     <ion-card-content>
     <!-- Add card content here! -->
       <div class="item">
-        <button [navPush]="settingsPage" ion-button block rounded large>Settings</button>
         <button [navPush]="learnPage" ion-button block rounded large>Learn</button>
         <button [navPush]="gamesPage" ion-button block rounded large>Play</button>
       </div>
     </ion-card-content>
 
   </ion-card>
-
-
 
 </ion-content>

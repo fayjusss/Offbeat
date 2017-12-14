@@ -6,9 +6,6 @@
 -->
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Settings
-    </ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -16,43 +13,47 @@
   <ion-content class="list-avatar-page">
     <ion-list>
 
-      <ion-list-header>Settings</ion-list-header>
+      <h1 text-center>Settings</h1>
 
-      <ion-item>
-      <!--     <ion-avatar item-start>
-          <img src="">
-        </ion-avatar> -->
-        <ion-label>Sound</ion-label>
-        <ion-toggle [(ngModel)]="sound"></ion-toggle>
-      </ion-item>
+      <ion-card>
+        <ion-card-content>
+          <ion-item>
+          <!--     <ion-avatar item-start>
+              <img src="">
+            </ion-avatar> -->
+            <ion-label>Sound</ion-label>
+            <ion-toggle [(ngModel)]="sound"></ion-toggle>
+          </ion-item>
 
-      <ion-item>
-        <!--   <ion-avatar item-start>
-          <img src="">
-        </ion-avatar> -->
-        <ion-label>Notifications</ion-label>
-        <ion-toggle [(ngModel)]="notifications"></ion-toggle>
-      </ion-item>
+          <ion-item>
+            <!--   <ion-avatar item-start>
+              <img src="">
+            </ion-avatar> -->
+            <ion-label>Notifications</ion-label>
+            <ion-toggle [(ngModel)]="notifications"></ion-toggle>
+          </ion-item>
 
 
-      <ion-item>
-        <!--   <ion-avatar item-start>
-        <img src="">
-      </ion-avatar> -->
-        <ion-label>Connect Fb</ion-label>
-        <ion-toggle [(ngModel)]="connectfb"></ion-toggle>
-      </ion-item>
+          <ion-item>
+            <!--   <ion-avatar item-start>
+            <img src="">
+          </ion-avatar> -->
+            <ion-label>Connect Fb</ion-label>
+            <ion-toggle [(ngModel)]="connectfb"></ion-toggle>
+          </ion-item>
 
-      <ion-item>
-    <!--    <ion-avatar item-start>
-          <img src="assets/img/avatar-ts-potatohead.png">
-        </ion-avatar> -->
-          <ion-label>Langage</ion-label>
-          <ion-select [(ngModel)]="langage" interface="popover">
-            <ion-option value="english">English</ion-option>
-            <ion-option value="finnish">Finnish</ion-option>
-          </ion-select>
-      </ion-item>
+          <ion-item>
+        <!--    <ion-avatar item-start>
+              <img src="assets/img/avatar-ts-potatohead.png">
+            </ion-avatar> -->
+              <ion-label>Langage</ion-label>
+              <ion-select [(ngModel)]="langage" interface="popover">
+                <ion-option value="english">English</ion-option>
+                <ion-option value="finnish">Finnish</ion-option>
+              </ion-select>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
 
     </ion-list>
 

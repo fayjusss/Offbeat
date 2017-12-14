@@ -6,14 +6,18 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content class="bg-style">
+<ion-content>
 
-  <ion-item class="item-profile">
-    <ion-icon name="settings" style="font-size: 40px; float: right"></ion-icon>
-    <div class="item-avatar">
-      <img src="assets/imgs/user.jpg">
-    </div>
-  </ion-item>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img margin-left src="assets/imgs/userRound.jpg">
+      </ion-col>
+      <ion-col col-8 text-right>
+        <ion-icon margin-right [navPush]="settingsPage" name="settings" style="font-size: 40px"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
   <button ion-button full default>Level test</button>
 
