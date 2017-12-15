@@ -1,0 +1,110 @@
+<!--
+  Generated template for the MultiplayerOpponentPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Notes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <img [navPush]="profilePage" margin-left src="assets/imgs/userRound.jpg">
+      </ion-col>
+      <ion-col col-8 text-right>
+        <ion-icon [navPush]="settingsPage" margin-right name="settings" style="font-size: 40px"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card [navPush]="multiplayerGameMockupPage">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <!--Game buttons column starts-->
+          <ion-col justify-self-left>
+            <!--Game buttons start-->
+            <div class="item-avatar">
+              <img src="assets/imgs/userRound.jpg">
+            </div>
+            <p text-center>Bee</p>
+            <!--Game buttons end-->
+          </ion-col>
+
+          <!-- & score column starts-->
+          <ion-col col-8 justify-left margin-left align-self-center>
+            <h1>Bee Flat</h1>
+            <ion-row>
+              <p>Level:1</p>
+              <p margin-left>11/12</p>
+            </ion-row>
+            <p >last login: 1hr</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card [navPush]="multiplayerGameMockupPage">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <!--Game buttons column starts-->
+          <ion-col justify-self-left>
+            <!--Game buttons start-->
+            <div class="item-avatar">
+              <img src="assets/imgs/userRound.jpg">
+            </div>
+            <p text-center>Bee</p>
+            <!--Game buttons end-->
+          </ion-col>
+
+          <ion-col col-8 justify-left margin-left align-self-center>
+            <h1>Cia Sharp</h1>
+            <ion-row>
+              <p>Level:4</p>
+              <p margin-left>1/14</p>
+            </ion-row>
+            <p >last login: 1d</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card [navPush]="multiplayerGameMockupPage">
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <!--Game buttons column starts-->
+          <ion-col justify-self-left>
+            <!--Game buttons start-->
+            <div class="item-avatar">
+              <img src="assets/imgs/userRound.jpg">
+            </div>
+            <p text-center>Bee</p>
+            <!--Game buttons end-->
+          </ion-col>
+
+          <ion-col col-8 justify-left margin-left align-self-center>
+            <h1>Little G</h1>
+            <ion-row>
+              <p>Level:1</p>
+              <p margin-left>11/12</p>
+            </ion-row>
+            <p >last login: 1hr</p>
+          </ion-col>
+          <!--User & score column ends-->
+          <!--Game buttons column ends-->
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

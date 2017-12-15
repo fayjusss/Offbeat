@@ -6,8 +6,8 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content>
-  <ion-card text-center padding-vertical>
+<ion-content text-center>
+  <ion-card padding-vertical>
     <ion-card-header>
       Duration
     </ion-card-header>
@@ -20,6 +20,8 @@
     Each music note written on the stave has a duration (length) as well as pitch. It is the design of the note that tells you its duration, in the same way as the position on the staff tells you the pitch. So each music note on a stave gives you two pieces of information, pitch and duration. This page focuses on the duration of each note.
 
   </ion-card>
+
+  <button ion-button outline [navPush]="learnPage">Finished!</button>
 
 
 </ion-content>

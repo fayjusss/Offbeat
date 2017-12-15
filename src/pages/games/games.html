@@ -29,10 +29,10 @@
   <div padding>
     <ion-segment [(ngModel)]="gameType">
       <ion-segment-button value="singlePlayer">
-        <ion-icon name="person" style="font-size: 30px"></ion-icon>
+        Single Player
       </ion-segment-button>
       <ion-segment-button value="multiPlayer">
-        <ion-icon name="people" style="font-size: 30px"></ion-icon>
+        Multiplayer
       </ion-segment-button>
     </ion-segment>
   </div>
@@ -42,9 +42,9 @@
       <ion-card-content>
       <!-- Add card content here! -->
         <div class="item">
-          <button [navPush]="mockupGamePage" ion-button block rounded large>Notes</button>
-          <button ion-button block rounded large>Beats</button>
-          <button ion-button block rounded large>Facts</button>
+          <button [navPush]="mockupGamePage" ion-button block round large>Notes</button>
+          <button ion-button block round large>Beats</button>
+          <button ion-button block round large>Facts</button>
         </div>
       </ion-card-content>
 
@@ -54,9 +54,9 @@
       <ion-card-content>
       <!-- Add card content here! -->
         <div class="item">
-          <button [navPush]="multiplayerGameMockupPage" ion-button block rounded large>Notes</button>
-          <button ion-button block rounded large>Beats</button>
-          <button ion-button block rounded large>Facts</button>
+          <button [navPush]="multiplayerOpponentPage" ion-button block round large>Notes</button>
+          <button ion-button block round large>Beats</button>
+          <button ion-button block round large>Facts</button>
         </div>
       </ion-card-content>
 

@@ -26,9 +26,6 @@ $card-ios-margin-bottom: 30px;
 $card-md-margin-top: 30px;
 $card-md-margin-bottom: 30px;
 
-$button-ios-border-radius: 20px;
-$button-md-border-radius: 20px;
-
 // Named Color Variables
 // --------------------------------------------------
 // Named colors makes it easy to reuse colors on various components.
@@ -42,7 +39,7 @@ $colors: (
   secondary:  #32db64,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #222,
 );
 
 

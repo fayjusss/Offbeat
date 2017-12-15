@@ -14,6 +14,8 @@ import { MultiplayerGameMockupPage } from '../pages/multiplayer-game-mockup/mult
 import { SettingsPage } from '../pages/settings/settings';
 import { ProfilePage } from '../pages/profile/profile';
 import { SinglePlayerGameOverPage } from '../pages/single-player-game-over/single-player-game-over';
+import { MultiplayerOpponentPage } from '../pages/multiplayer-opponent/multiplayer-opponent';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +26,7 @@ import { SinglePlayerGameOverPage } from '../pages/single-player-game-over/singl
     LessonPage,
     MockupGamePage,
     MultiplayerGameMockupPage,
+    MultiplayerOpponentPage,
     SettingsPage,
     ProfilePage,
     SinglePlayerGameOverPage
@@ -40,6 +43,7 @@ import { SinglePlayerGameOverPage } from '../pages/single-player-game-over/singl
     LearnPage,
     LessonPage,
     MockupGamePage,
+    MultiplayerOpponentPage,
     MultiplayerGameMockupPage,
     SettingsPage,
     ProfilePage,
